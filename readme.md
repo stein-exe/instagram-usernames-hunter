@@ -17,8 +17,6 @@ A powerful multi-threaded Instagram username availability checker that helps you
   - [Linux/Windows Setup](#linuxwindows)
 - [Configuration](#-configuration)
 - [Usage](#-usage)
-- [How It Works](#-how-it-works)
-- [Screenshots](#-screenshots)
 - [Developer](#-developer)
 
 ---
@@ -101,7 +99,7 @@ pip install -r requirements.txt
 
 4. **Run the script:**
 ```bash
-python "instagram username checker.py"
+python instagram.py
 ```
 
 ---
@@ -201,25 +199,6 @@ Enter choice (1/2): 2
 
 Enter path to username list: usernames.txt
 ```
-
----
-
-## 🔍 How It Works
-
-1. **Cookie Generation** - The script first generates Instagram session cookies
-2. **Username Validation** - Validates usernames (minimum 5 characters)
-3. **Availability Check** - Sends requests to Instagram's signup endpoint
-4. **Multi-threading** - Uses 20 concurrent threads for fast checking
-5. **Telegram Notification** - Sends a message to your Telegram when an available username is found
-6. **Color-coded Output** - Shows results in terminal:
-   - 🟢 **Green** = Available
-   - 🔴 **Red** = Unavailable
-
----
-
-## 📸 Screenshots
-
-The script features a beautiful ASCII art banner with random color schemes that change on each run, making your username hunting experience more enjoyable!
 
 ---
 
