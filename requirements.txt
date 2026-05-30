@@ -1,0 +1,4 @@
+requests>=2.31.0
+cfonts>=1.5.0
+colorama>=0.4.6
+user-agent>=0.1.10
