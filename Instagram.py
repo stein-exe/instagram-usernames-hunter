@@ -33,7 +33,7 @@ def print_banner():
     stein_colors, qe_colors = random.sample(COLOR_COMBOS, 2)
     stein = render('STEIN', colors=stein_colors, align='center', font='block', background='black')
     qe = render(
-        'Telegram: @rejerk | Join @wraple\nV7.2 ',
+        'Telegram: @rejerk | Join @keped\nV7.2 ',
         colors=qe_colors,
         align='right',
         font='console',
